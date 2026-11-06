@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestro Álbum de Recuerdos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Portada / Encabezado (La barra naranja de arriba) -->
+  <header class="hero">
+    <h1>Nuestro Álbum de Recuerdos.</h1>
+    <h1>Un año para recordar🧡</h1>
+    <p>Momentos inolvidables que nos hicieron llegar a lo que somos ahora.</p>
+  </header>
+
+  <!-- Contenedor principal -->
+  <main class="contenedor">
+    <!-- Menú desplegable de fechas especiales -->
+    <section class="buscador-fecha">
+      <label for="selector-fecha">Elige una fecha especial:</label>
+      <select id="selector-fecha">
+        <option value="">-- Elige un momento inolvidable --</option>
+      </select>
+    </section>
+
+    <!-- Tarjeta donde se mostrará el recuerdo seleccionado -->
+    <section id="contenedor-recuerdo" class="tarjeta-recuerdo">
+      <p class="mensaje-bienvenida">Selecciona una fecha arriba para ver el recuerdo de ese día.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
